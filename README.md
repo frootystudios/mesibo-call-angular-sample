@@ -31,15 +31,14 @@ Now open file with name "mesibo.service.ts" file and change "appId" variable's p
 
 # Run Application
 After completing configuration time to run this sample project.
-First execute following command on projects root folder to install all libraries <br />
+First execute following command on projects root folder to install all libraries
 > npm install
-<br />
-To run application on local network use following command<br />
+To run application on local network use following command
 > ng serve --host 0.0.0.0 --ssl
-<br />
-To run application on VPS use following command <br />
+To run application on VPS use following command
 > ng serve --host 0.0.0.0 --ssl --disableHostCheck true
-<br />
+
+
 After application successfully running. Use following steps to your first Mesibo start Video Call.<br />
 Step 1: From Machine 1 click on "Connect Using User 1", wait for the connection status to be "Online"<br />
 Step 2: From Machine 2 Click on "Connect Using User 2", wait for the connection status to be "Online"<br />
