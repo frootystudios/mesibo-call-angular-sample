@@ -33,8 +33,10 @@ Now open file with name "mesibo.service.ts" file and change "appId" variable's p
 After completing configuration time to run this sample project.
 First execute following command on projects root folder to install all libraries
 > npm install
+
 To run application on local network use following command
 > ng serve --host 0.0.0.0 --ssl
+
 To run application on VPS use following command
 > ng serve --host 0.0.0.0 --ssl --disableHostCheck true
 
