@@ -31,27 +31,27 @@ Now open file with name "mesibo.service.ts" file and change "appId" variable's p
 
 # Run Application
 After completing configuration time to run this sample project.
-First execute following command on projects root folder to install all libraries
-/> npm install
-
-To run application on local network use following command
-/> ng serve --host 0.0.0.0 --ssl
-
-To run application on VPS use following command
-/> ng serve --host 0.0.0.0 --ssl --disableHostCheck true
-
-After application successfully running. Use following steps to your first Mesibo start Video Call.
-Step 1: From Machine 1 click on "Connect Using User 1", wait for the connection status to be "Online"
-Step 2: From Machine 2 Click on "Connect Using User 2", wait for the connection status to be "Online"
-Step 3: Now to start video call, assuming calling from Machine 1, click on "Start Video Call to User 2" and give permission for Camera and Microphone.
-Step 4: On Machine 2 it will ask for Camera and Microphone permission, After you can see message on Machine 2 "Incoming Call Status : Incoming Call" then press "Answer Call" button.
+First execute following command on projects root folder to install all libraries <br />
+> npm install
+<br />
+To run application on local network use following command<br />
+> ng serve --host 0.0.0.0 --ssl
+<br />
+To run application on VPS use following command <br />
+> ng serve --host 0.0.0.0 --ssl --disableHostCheck true
+<br />
+After application successfully running. Use following steps to your first Mesibo start Video Call.<br />
+Step 1: From Machine 1 click on "Connect Using User 1", wait for the connection status to be "Online"<br />
+Step 2: From Machine 2 Click on "Connect Using User 2", wait for the connection status to be "Online"<br />
+Step 3: Now to start video call, assuming calling from Machine 1, click on "Start Video Call to User 2" and give permission for Camera and Microphone.<br />
+Step 4: On Machine 2 it will ask for Camera and Microphone permission, After you can see message on Machine 2 "Incoming Call Status : Incoming Call" then press "Answer Call" button.<br />
 
 That's it.. now both machine should be able to do Video Call!
 
 To Know more about the code please refer the comments in code.
 
 # Extra Information
-Mesibo also provide On-Premises facility using which you can install it on your own server or VPS.
-You can do On-Premise deployement by following https://mesibo.com/documentation/on-premise/ steps.
+Mesibo also provide On-Premises facility using which you can install it on your own server or VPS.<br />
+You can do On-Premise deployement by following https://mesibo.com/documentation/on-premise/ steps.<br />
 
 And you can use same sample application to test its working.
